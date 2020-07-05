@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/ref-struct-di": "^1.1.0",
-    "@waiting/shared-core": "3",
+    "@waiting/shared-core": "4",
     "cross-env": "7",
     "ref-struct-di": "^1.1.0",
     "rxjs": "^6.5.2"
