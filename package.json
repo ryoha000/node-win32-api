@@ -4,8 +4,8 @@
   "description": "FFI definitions of windows win32 api for node-ffi",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "8",
-    "@commitlint/config-conventional": "8",
+    "@commitlint/cli": "9",
+    "@commitlint/config-conventional": "9",
     "@rollup/plugin-commonjs": "13",
     "@rollup/plugin-node-resolve": "8",
     "@types/mocha": "7",
@@ -21,7 +21,7 @@
     "espower-typescript": "9",
     "intelli-espower-loader": "1",
     "lerna": "3",
-    "mocha": "7",
+    "mocha": "8",
     "mocha-lcov-reporter": "1",
     "nyc": "15",
     "power-assert": "1",
@@ -35,7 +35,7 @@
     "yargs": "15"
   },
   "engines": {
-    "node": ">=10.16.0"
+    "node": ">=12.13.0"
   },
   "scripts": {
     "bp:add": "git remote add bp https://github.com/waitingsong/npm-mono-base",
