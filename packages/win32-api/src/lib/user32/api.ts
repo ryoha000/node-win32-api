@@ -63,6 +63,8 @@ export interface Win32Fns extends FM.DllFuncsModel {
 
   GetClassInfoExW: (hinst: M.HINSTANCE, lpszClass: M.LPCTSTR, LPWNDCLASSEX: M.LPWNDCLASSEX) => M.BOOL
 
+  GetClientRect: (hWnd: M.HWND, LPRECT: M.RECT) => M.BOOL
+
   GetForegroundWindow: () => M.HWND
 
   GetMessageW: (lpMsg: M.LPMSG, HWND: M.HWND, wMsgFilterMin: M.UINT, wMsgFilterMax: M.UINT) => M.BOOL
